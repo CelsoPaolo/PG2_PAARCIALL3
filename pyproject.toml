@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "validador_datos_personas"
+version = "0.0.1"
+authors = [
+  { name="Celso Paolo Velasco Espinoza", email="celsovelasco.sis24ch@tecba.edu.bo" },
+]
+description = "Una librería para validación de datos y manejo de personas."
+readme = "README.md"
+license = { file="LICENSE.txt" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tu_usuario/nombre_apellido_pg2_tecba"
+Issues = "https://github.com/tu_usuario/nombre_apellido_pg2_tecba/issues"

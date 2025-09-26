@@ -1,0 +1,23 @@
+# Archivos de Python
+*.pyc
+__pycache__/
+*.so
+.DS_Store
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+# Pip
+pip-log.txt
+pip-log.log
+
+# Archivos de desarrollo y entorno
+.env
+.idea/
+.vscode/
+
+# Distribución
+dist/
+build/
+*.egg-info/
